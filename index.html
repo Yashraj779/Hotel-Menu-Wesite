@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hotel Menu</h1>
+        <div class="categories">
+            <button onclick="filterMenu('all')">All</button>
+            <button onclick="filterMenu('breakfast')">Breakfast</button>
+            <button onclick="filterMenu('lunch')">Lunch</button>
+            <button onclick="filterMenu('dinner')">Dinner</button>
+        </div>
+
+        <div class="menu-items" id="menu">
+            <!-- Breakfast Items -->
+            <div class="menu-item breakfast">
+                <img src="images/pancakes.jpeg" alt="Pancakes">
+                <h3>Pancakes</h3>
+                <p>Fluffy pancakes served with maple syrup.</p>
+            </div>
+            <div class="menu-item breakfast">
+                <img src="images/omlette.jpeg" alt="Omelette">
+                <h3>Omelette</h3>
+                <p>Cheese and vegetable-stuffed omelette.</p>
+            </div>
+            <div class="menu-item breakfast">
+                <img src="images/waffles.jpeg" alt="Waffles">
+                <h3>Waffles</h3>
+                <p>Buttermilk waffles with strawberries and whipped cream.</p>
+            </div>
+            <div class="menu-item breakfast">
+                <img src="images/avacadotoast.jpeg" alt="Avocado Toast">
+                <h3>Avocado Toast</h3>
+                <p>Whole grain toast topped with smashed avocado and poached egg.</p>
+            </div>
+            <div class="menu-item breakfast">
+                <img src="images/smoothie.jpeg" alt="Smoothie Bowl">
+                <h3>Smoothie Bowl</h3>
+                <p>Açai smoothie topped with fresh fruits and granola.</p>
+            </div>
+
+            <!-- Lunch Items -->
+            <div class="menu-item lunch">
+                <img src="images/burger.jpeg" alt="Burger">
+                <h3>Beef Burger</h3>
+                <p>Grilled beef burger with fries.</p>
+            </div>
+            <div class="menu-item lunch">
+                <img src="images/salad.jpeg" alt="Salad">
+                <h3>Caesar Salad</h3>
+                <p>Fresh Caesar salad with chicken and dressing.</p>
+            </div>
+            <div class="menu-item lunch">
+                <img src="images/grilled cheese.jpeg" alt="Grilled Cheese">
+                <h3>Grilled Cheese Sandwich</h3>
+                <p>Crispy grilled cheese sandwich with tomato soup.</p>
+            </div>
+            <div class="menu-item lunch">
+                <img src="images/sushi platter.jpeg" alt="Sushi">
+                <h3>Sushi Platter</h3>
+                <p>Assorted sushi with soy sauce and wasabi.</p>
+            </div>
+            <div class="menu-item lunch">
+                <img src="images/chciken tacos.jpeg" alt="Tacos">
+                <h3>Chicken Tacos</h3>
+                <p>Soft tacos filled with grilled chicken, salsa, and guacamole.</p>
+            </div>
+
+            <!-- Dinner Items -->
+            <div class="menu-item dinner">
+                <img src="images/grilled steak.jpeg" alt="Steak">
+                <h3>Grilled Steak</h3>
+                <p>Juicy grilled steak served with mashed potatoes.</p>
+            </div>
+            <div class="menu-item dinner">
+                <img src="images/pasta.jpeg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Creamy Alfredo pasta with garlic bread.</p>
+            </div>
+            <div class="menu-item dinner">
+                <img src="images/grilled slamon.jpeg" alt="Grilled Salmon">
+                <h3>Grilled Salmon</h3>
+                <p>Salmon fillet served with steamed vegetables.</p>
+            </div>
+            <div class="menu-item dinner">
+                <img src="images/lam chpos.jpeg" alt="Lamb Chops">
+                <h3>Lamb Chops</h3>
+                <p>Marinated lamb chops served with couscous.</p>
+            </div>
+            <div class="menu-item dinner">
+                <img src="images/mushroom risotto.jpeg" alt="Risotto">
+                <h3>Mushroom Risotto</h3>
+                <p>Creamy risotto with mushrooms and parmesan.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
